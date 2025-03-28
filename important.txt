@@ -3,3 +3,9 @@ Change hosted port number for application
 Go to: vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php
 In function definition of port(), change the line $port = $port ?: 8000; to $port = $port ?: {desired_port_number};
 i.e $port = $port ?: 9010;
+
+--------------------------------------------------------------------------------------------------------------------------
+1. Added database structure created on draw.io i.e. public/database_structure
+2. Made changes in .env file to setup database name i.e. DB_DATABASE=laravel_blog_system
+
+--------------------------------------------------------------------------------------------------------------------------
